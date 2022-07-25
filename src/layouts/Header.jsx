@@ -55,7 +55,7 @@ const Header = () => {
 
          <div
             className={`${
-               !isNavbar ? "hidden " : "block"
+               !isNavbar ? "hidden" : "block"
             } w-screen md:w-80 h-screen bg-gray-100 fixed z-40 top-0 right-0 transition duration-200 ease-out flex justify-center items-center`}
          >
             <div
@@ -79,16 +79,16 @@ const Header = () => {
             </div>
 
             <div className="space-y-8 flex flex-col   text-center  text-xs font-medium uppercase text-gray-500 ">
-               <a href="#hero" className="hover:text-gray-600">
+               <a href="#hero" className="hover:text-gray-600" onClick={()=>setisNavbar(false)}>
                   Grow
                </a>
-               <a href="#productivity" className="hover:text-gray-600">
+               <a href="#productivity" className="hover:text-gray-600"  onClick={()=>setisNavbar(false)}>
                   Productivity
                </a>
-               <a href="#pricing" className="hover:text-gray-600">
+               <a href="#pricing" className="hover:text-gray-600"  onClick={()=>setisNavbar(false)}>
                   Pricing
                </a>
-               <a href="#contact" className="hover:text-gray-600">
+               <a href="#contact" className="hover:text-gray-600"  onClick={()=>setisNavbar(false)}>
                   Contact us
                </a>
 
