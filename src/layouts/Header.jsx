@@ -55,7 +55,7 @@ const Header = () => {
 
          <div
             className={`${
-               !isNavbar ? "-right-full " : "right-0"
+               !isNavbar ? "hidden " : "block"
             } w-screen md:w-80 h-screen bg-gray-100 fixed z-40 top-0 right-0 transition duration-200 ease-out flex justify-center items-center`}
          >
             <div
